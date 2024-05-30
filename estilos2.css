@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/JaFjilU.jpg'); /* Cambia 'ruta/a/imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+}
+
+/* Cabecera */
+header {
+    background-color: #000;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Contenido Principal */
+.main-content {
+    padding: 20px 40px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    color:#fff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid;
+   
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.game {
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
